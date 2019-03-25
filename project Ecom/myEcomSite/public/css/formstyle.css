@@ -1,0 +1,131 @@
+#cus_details{
+
+	border-top-right-radius:300px;
+	border-bottom-left-radius:400px;
+	margin: 2em 300px 2em 300px;
+	padding:100px 0px 100px 50px;
+	background-image:url("../images/image.bmp");
+	background-position:fixed;
+	background-repeat:repeat-x;
+
+}
+
+
+#ship legend{
+	color:darkred;
+	font-weight:bold;
+	text-align:center;
+	margin-bottom:0px;
+}
+
+
+#ship label, select{
+	float:left;
+	font-size:18px;
+	text-align:left;
+	width:150px;
+	margin-right:0px;
+	color:gray;
+
+	
+}
+
+.textInput{	
+	border:2px solid red;
+	float:left;
+
+}
+input[type=submit]{
+	height:3em;
+	width:20em;
+	margin-left:100px;
+	font-size:16px;
+	background-color:black;
+	color:white;
+	border:2px solid gray;
+	font-family: 'Pathway Gothic One';
+    text-transform: uppercase;
+}
+input[type=submit]:hover{
+    background: #229cd7;
+    transition: 0.5s all;
+}
+
+.val_error{
+	color:red;
+}
+
+#tracko_login{
+	margin: 20px 100px 20px 300px;
+	padding: 100px;
+	width: 1000px;
+	background-color:linear-gradient(to bottom,blue,white);
+	color:black;
+	
+	
+}
+
+
+#order_status{
+	margin: 100px 500px 100px 300px;
+	text-align:center;
+}
+#table_details{
+	height:2em;
+	width:20em;
+	margin:20px 300px 20px 300px;
+	
+}
+#det,#order-heading{
+	font-size:16px;
+	text-align:center;
+}
+#oinput{
+	margin-right:90px;
+	height:4em;
+	width:15em;
+}
+#ostatus{
+	font-size:18px;
+	height:2em;
+	width:20em;
+}
+#hed{
+	color:#229cd7;
+	
+}
+
+#back{
+    background-color:black;
+	color:white;
+	border:2px solid gray;
+	height:3em;
+	width:20em;
+	text-transform: uppercase;
+	margin-left:100px;
+	font-size:16px;
+	text-align:center;
+	padding:10px 10px 10px 10px;
+	margin:20px 500px 20px 300px;;
+	
+}
+#back:hover{
+	background: #229cd7;
+    transition: 0.5s all;
+}
+
+#invalid{
+    background-color:linear-gradient(to bottom,blue,white);
+	color:red;
+	border:2px solid gray;
+	height:3em;
+	width:20em;
+	text-transform: uppercase;
+	margin-left:100px;
+	font-size:16px;
+	text-align:center;
+	padding:10px 10px 100px 10px;
+	margin:20px 500px 20px 650px;;
+	
+}
+
